@@ -1,6 +1,9 @@
 {
     "private": true,
     "scripts": {
+        "start": "php artisan serve --host=10.0.5.11 --port=8000",
+        "pro": "php artisan serve --host=10.0.5.11 --port=8001",
+        "test": "php artisan serve --host=10.0.5.11 --port=8002",
         "dev": "npm run development",
         "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
         "watch": "npm run development -- --watch",

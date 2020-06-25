@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/test',function(){
+    return 'hel个阿汤哥奥特阿古特lo';
+});
